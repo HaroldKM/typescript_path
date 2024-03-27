@@ -2,7 +2,10 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import './type challenges/challenge-1.ts'
+import './challenges/type-challenge-1.ts'
+import './challenges/union-type-challenge-2.ts'
+
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
